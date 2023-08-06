@@ -1,10 +1,11 @@
 {
     "compilerOptions": {
-        "outDir": "dist/js",
-        "target": "ES6",
-        "noEmitOnError": true,
-        "noImplicitAny": true,
-        "removeComments": true
+        "outDir": "dist/js", // diz para aonde quer que vá os arquivos compilados
+        "target": "ES6", // para qual versão do javascript você quer que o compilador rode
+        "noEmitOnError": true, // aqui ele esta dizendo para o compilador não gerar arquivos quando tiver algum type error
+        "noImplicitAny": true, // aqui pergunta se você não quer que o typescript assuma que um elemento é 'any' quando você não define nada, por boas práticas: true
+        "removeComments": true, // remove todos os comentários quando for exportar para .js
+        "strictNullChecks": true // obriga o typescript a verificar por nulos
     },
-    "include": ["app/**/*"]
+    "include": ["app/**/*"] // diz aonde a aplicação de desenvolvimento esta
 }
