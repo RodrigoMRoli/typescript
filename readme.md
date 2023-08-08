@@ -1,6 +1,6 @@
 # Alguns detalhes sobre o aprendizado de Typescript
 
-    Detalhamento de funções ou mais específico de código estão na documentação da função em sí, coloca o mouse em cima das funções e veja. Esse MD é mais para ideia e teoria.
+    Detalhamento de funções ou mais específico de código estão na documentação da função em sí, coloca o mouse em cima das funções e veja. Esse MD é mais para ideia e teoria novas que achei pertinente.
  
 ### Estrutura do código
 
