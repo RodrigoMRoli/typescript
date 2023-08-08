@@ -7,6 +7,12 @@
         "removeComments": true, // remove todos os comentários quando for exportar para .js
         "strictNullChecks": true, // obriga o typescript a verificar por nulos
         "experimentalDecorators": true, // te permite utilizar decorators
+        "sourceMap": true,
+        /**
+            Setar essa tag te permite utilizar o debugger do google chrome.
+            Ele vai te mostrar o seu código em TS para debugar. Básicamente o TS esta entregando pro chrome um source map da sua aplicação.
+            Lembrando que o compilador deixa o código completamente diferente em JS do seu código TS, por isso essa funcionalidade é importante
+        */
     },
     "include": ["app/src/**/*"] // diz aonde a aplicação de desenvolvimento esta
 }

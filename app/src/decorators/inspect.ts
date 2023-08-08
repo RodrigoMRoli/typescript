@@ -1,3 +1,6 @@
+/**
+ * @description Essa função é boa para clarear a mente sobre os parâmetros dos decorators e como eles funcionam.
+ */
 export function inspect() {
     return function (
         target: any,

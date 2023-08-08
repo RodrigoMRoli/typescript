@@ -1,5 +1,4 @@
 import { NegociacaoController } from './controllers/negociacao-controller.js';
-// import { NegociacoesView } from './views/negociacoes-view.js';
 
 const controller = new NegociacaoController()
 const form = document.querySelector('.form') as HTMLInputElement
@@ -12,6 +11,11 @@ if (form) {
     throw new Error('Não foi possível iniciar a aplicação. Verifique se o form existe')
 }
 
-// const negociacoesView = new NegociacoesView
-// const template = negociacoesView.template()
-// console.log(template)
+const botaoImporta = document.querySelector("#importa")
+if (botaoImporta) {
+    botaoImporta.addEventListener('click', () => {
+        controller.importaDados()
+    })
+} else {
+    throw Error('Botao importa não foi encontrado')
+}
